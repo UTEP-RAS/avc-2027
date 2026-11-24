@@ -1,0 +1,10 @@
+{
+  "name": "avc-2027",
+  "build": {
+    "dockerfile": "../docker/Dockerfile",
+    "context": ".."
+  },
+  "workspaceFolder": "/ws",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/ws,type=bind",
+  "runArgs": ["--network=host"]
+}

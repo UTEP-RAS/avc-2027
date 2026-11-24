@@ -1,0 +1,4 @@
+/uav/uav_mission:
+  ros__parameters:
+    publish_rate_hz: 1.0
+    fake_target_xyz: [3.0, 2.0, 0.0]

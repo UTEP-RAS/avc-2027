@@ -1,0 +1,3 @@
+/ugv/target_listener:
+  ros__parameters:
+    min_confidence: 0.5

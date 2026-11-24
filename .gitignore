@@ -1,0 +1,27 @@
+# colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# rosbags (keep them out of git; share via Drive)
+bags/
+*.mcap
+*.db3
+
+# ML
+runs/
+*.pt
+*.engine
+*.onnx
+
+# Editors / OS
+.vscode/
+.idea/
+.zed/
+.DS_Store

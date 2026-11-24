@@ -1,0 +1,8 @@
+# PRs touching these paths auto-request review from the owners.
+# Replace the handles with your teammates' GitHub usernames, then uncomment.
+
+# /src/common/   @software-lead
+# /src/uav/      @uav-owner
+# /src/ugv/      @ugv-owner
+# /src/sim/      @sim-owner
+# /.github/      @software-lead
